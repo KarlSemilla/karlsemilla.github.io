@@ -1,0 +1,7 @@
+/* Animation assistance/inspiration from https://css-tricks.com/snippets/css/typewriter-effect/ */
+
+div {
+  color: ghostwhite;
+  position: relative;
+  text-align: center;
+}

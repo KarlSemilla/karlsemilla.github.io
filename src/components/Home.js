@@ -1,7 +1,6 @@
 import React from "react";
 import "./css/Home.css";
 import myImage from "./assets/images/Karl.jpg";
-import { Link } from "react-router-dom";
 
 const descriptors = ['Mount Royal University Graduate', 'Web Developer', 'Programmer', 'Photographer'];
 
@@ -26,7 +25,6 @@ class Home extends React.Component {
     let description = descriptors[this.state.index % descriptors.length];
     return (
       <div className="main">
-        <div className="headerBar">Place headerbar here</div>
         <div className="img"><img src={myImage} alt="A picture of me!" /></div>
         <p className="blurb">
           Hello, I am Karl Anthony Semilla!<br />
